@@ -1,0 +1,16 @@
+MODE: built-in image_gen
+
+BASE PROMPT
+Use case: stylized-concept
+Asset type: cinematic immersive website background, wide 1536x1024 landscape.
+Primary request: A dreamy Japanese night garden, a lush field of crimson red spider lilies (higanbana), drifting moonlit fog, distant Japanese temple pagoda and trees. A small dark wooden round table and EXACTLY TWO chairs occupy the middle lower scene. A faceless solid black human silhouette is seated in the LEFT chair facing the table. The RIGHT chair is visibly EMPTY.
+Composition: fixed straight-on cinematic viewpoint, table centered horizontally. Two chairs and table together occupy center 40% of frame width, substantial enough to be clearly seen on mobile crop, lower-middle centered. Upper 25% relatively quiet dark sky for a title. Moon softly diffused by clouds. Flowers frame foreground, gentle winding garden path to table.
+Style: premium photoreal painterly fantasy film still, very detailed spider lily petals, atmospheric depth, mystical and peaceful, beautiful contemplative dream.
+Palette: dark teal-black foliage and sky, rich crimson flowers, restrained silvery teal moonlight. Dim yet legible silhouette of seated host, furniture and empty right chair.
+Constraints: exactly one person on LEFT chair, exactly two chairs total, right chair empty, no other people. No words, text, UI, borders, logos, watermarks. Not horror.
+
+GUEST EDIT PROMPT
+Use case: precise-object-edit
+Input image: edit target, exact existing garden-base composition.
+Change ONLY this: add one faceless black smoky human silhouette sitting naturally in the currently EMPTY RIGHT chair, facing the table and left seated host, viewed from rear three-quarter angle. The guest should be similar in size and dark faceless silhouette treatment to host, with a softly misty subtle edge. Guest head around x=985 y=475 in this 1536x1024 image, torso behind right chair back, feet around x=950 y=755. It should look peaceful, as if a visitor quietly joined the table.
+Invariants: Preserve exact canvas size, camera, framing, crop, garden, all flowers, sky, clouds, moon, pagoda, trees, lake, bridge, fog, lanterns, table, tea set, all furniture positions, and left host unchanged. Preserve exact existing pixel placement as closely as possible. No global lighting changes, no changes to colors, no added objects except the right seated guest. Exactly two people and two chairs after edit. No words, no UI. The images will crossfade, so background and other objects must remain perfectly aligned.
